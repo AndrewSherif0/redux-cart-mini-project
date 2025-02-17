@@ -22,7 +22,7 @@ This is a simple e-commerce cart application built with React and Redux. It demo
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/AndrewSherif0/redux-cart-mini-project.git
 Navigate into the project directory:
