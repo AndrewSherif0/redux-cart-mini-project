@@ -48,6 +48,27 @@ This will open the project in your browser at http://localhost:3000.
 Contributing
 Feel free to fork this project and submit pull requests if you want to contribute.
 
+Running JSON Server on a Different Port
+To run the JSON Server on a different port (for example, port 5000), follow these steps:
+
+Open a new terminal window and navigate to the project directory.
+Run the following command to start the JSON Server on port 5000:
+
+Start the React App
+Now, you can start the React development server:
+
+bash
+Copy
+Edit
+npm start
+This will start the React app on http://localhost:3000.
+
+bash
+Copy
+Edit
+npx json-server --watch db.json --port 5000
+This will start the JSON Server at http://localhost:5000 and your app can
+
 License
 This project is open-source and available under the MIT License.
 
